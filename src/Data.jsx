@@ -7,7 +7,11 @@ const Data = (props) => {
       <div className="data">
         <div>
           <h1>{props.title}</h1>
+        </div>
+        <div>
           <p>{props.content}</p>
+        </div>
+        <div>
           <button className="delete" onClick={deleteNote}>
             <i className="fa-sharp fa-solid fa-trash "></i>
           </button>
