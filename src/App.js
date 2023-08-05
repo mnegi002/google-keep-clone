@@ -17,11 +17,11 @@ const App = () => {
   };
 
   const onDelete = (id) => {
-    setAddItem((oldData) => {
+    setAddItem((oldData) =>
       oldData.filter((currData, index) => {
         return index !== id;
-      });
-    });
+      })
+    )
   };
   return (
     <>
